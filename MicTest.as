@@ -2,7 +2,7 @@ package {
 
   import flash.display.Sprite;
   import flash.media.Microphone;
-	import flash.events.*;
+  import flash.events.*;
 
   public class MicTest extends Sprite {
 
@@ -53,7 +53,7 @@ package {
 
       frameNum++;
 
-			txt_samplesPerFrame.appendText( numSamplesInFrame + '\n' );
+      txt_samplesPerFrame.appendText( numSamplesInFrame + '\n' );
 
       txt_timeSinceLastFrame.appendText( timeSinceLastFrame + '\n' );
 
